@@ -33,6 +33,18 @@ describe('encodeFormData', () => {
     expect(result).toBe('empty=&normal=value');
   });
 
+  it('handles undefined and null values', () => {
+    const testData = {
+      empty: '',
+      normal: 'value',
+      undefined: undefined,
+      null: null,
+    };
+
+    const result = encodeFormData(testData);
+    expect(result).toBe('empty=&normal=value&undefined=&null=');
+  });
+
   it('should return empty string for empty object', () => {
     const testData = {};
 
