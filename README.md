@@ -4,7 +4,7 @@ This library is designed to make it easy to submit responses to Google Forms fro
 
 You can simply create a Google Form and submit answers to it directly from your web or mobile application.
 
-This allows quick and easy development of contact forms, surveys, and other data collection widgets without the need for extra infrastructure of development time. This can be especially useful for static websites and single page applications.
+This allows quick and easy development of contact forms, surveys, and other data collection widgets without the need for extra infrastructure. This can be especially useful for static websites and single page applications.
 
 For these reasons, the library is designed to be as lightweight as possible with no dependencies on other NPM packages, enabling ease of use and fast loading times.
 
