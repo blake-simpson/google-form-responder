@@ -1,9 +1,9 @@
 {
   "name": "google-form-responder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enabling  Google Form respons submission from the browser or Node.js",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "compile": "npx tsc",
     "build": "rm -rf dist && npm run compile",
@@ -19,8 +19,12 @@
     "responder"
   ],
   "files": [
-    "dist"
+    "dist/src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blake-simpson/google-form-responder.git"
+  },
   "author": "Blake Simpson <hi@blakesimpson.solutions>",
   "license": "MIT",
   "devDependencies": {
