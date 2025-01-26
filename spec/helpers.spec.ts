@@ -42,7 +42,7 @@ describe('encodeFormData', () => {
     };
 
     const result = encodeFormData(testData);
-    expect(result).toBe('empty=&normal=value&undefined=&null=');
+    expect(result).toBe('empty=&normal=value');
   });
 
   it('should return empty string for empty object', () => {

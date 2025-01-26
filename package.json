@@ -1,6 +1,6 @@
 {
   "name": "google-form-responder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Enabling  Google Form respons submission from the browser or Node.js",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
