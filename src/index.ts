@@ -5,6 +5,8 @@ import {
   GoogleFormResponderInstance,
 } from './types';
 
+export * from './types';
+
 const GoogleFormResponder = {
   send: async (formId: string, data: GoogleFormData): Promise<boolean> => {
     const sheetUrl = `https://docs.google.com/forms/d/${formId}/formResponse`;
